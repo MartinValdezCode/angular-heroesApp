@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Borrar héroe</h1>
+<div mat-dialog-content>
+    Está a punto de borrar a {{data.superhero}} ¿Desea continuar?
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button 
+            (click)="borrar()"
+            color="primary">
+        Si, borrar!
+    </button>
+    <button mat-button
+            (click)="cerrar()"
+            color="secondary">
+        Cancelar
+    </button>
+</div>
